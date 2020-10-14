@@ -1,0 +1,9 @@
+alias ls='ls -a --color=auto'
+alias p='sudo pacman'
+
+alias vim='nvim'
+alias v='vim'
+
+alias sysctl='sudo systemctl'
+alias vifm='vifm .'
+
