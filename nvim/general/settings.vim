@@ -15,6 +15,7 @@ set viminfo=%,<800,'10,/50,:100,h,f0,n~/.config/nvim/cache/.viminfo
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 
 syntax enable
+set colorcolumn=81
 set so=7
 set wildmenu
 set ruler
