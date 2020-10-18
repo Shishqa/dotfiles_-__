@@ -1,0 +1,13 @@
+*
+!.util/**
+!.Xresources
+!zsh/**
+!nvim/**
+!vifm/**
+!bspwm/**
+!dunst/**
+!neofetch/**
+!polybar/**
+!sxhkd/**
+!README.md
+!.gitignore
