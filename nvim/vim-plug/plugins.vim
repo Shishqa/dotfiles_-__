@@ -3,7 +3,7 @@ call plug#begin('~/.config/nvim/vim-plug')
 " coc.nvim completion engine
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" better commentaty
+" better commentary
 Plug 'tpope/vim-commentary'
 
 " git changes
