@@ -1,4 +1,6 @@
+autoload/
 cache/
-colors/
-vim-plug/plugged
+vim-plug/*
+!vim-plug/plugins.vim
 vim-profiler/
+.netrwhist

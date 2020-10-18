@@ -14,7 +14,7 @@
 !
 !##< FONT >###############################################################################
 
-*.font: xft:Inconsolata\ LGC:style=Regular:pixelsize=16, xft:Wuncon\ Siji:pixelsize=16
+*.font: xft:Inconsolata\ LGC:style=Regular:pixelsize=16, xft:Wuncon\ Siji:pixelsize=18
 
 !*.font: xft:DejaVu Sans Mono:style=Book:pixelsize=18
 

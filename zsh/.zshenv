@@ -14,8 +14,14 @@ export XDG_CONFIG_DIR="$HOME/.config"
 
 #==========================================================================#
 
+export CONDA_ROOT="$HOME/.local/share/anaconda3/"
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
 #export MYVIMRC="$HOME/.config/vim/.vimrc"
 #export VIMINIT=":set runtimepath+=$HOME/.config/vim/after,$HOME/.config/vim|:source $MYVIMRC"
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 export VIFM="$HOME/.config/vifm"
 

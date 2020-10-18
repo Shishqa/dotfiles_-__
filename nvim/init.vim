@@ -20,13 +20,7 @@ source $HOME/.config/nvim/general/mappings.vim
 "=========================================================================="
 
 source $HOME/.config/nvim/vim-plug/plugins.vim
-
-source $HOME/.config/nvim/vim-plug/plug-config/coc.vim
-source $HOME/.config/nvim/vim-plug/plug-config/coc-snips.vim
-source $HOME/.config/nvim/vim-plug/plug-config/netrw.vim
-source $HOME/.config/nvim/vim-plug/plug-config/goyo.vim
-source $HOME/.config/nvim/vim-plug/plug-config/vimtex.vim
-source $HOME/.config/nvim/vim-plug/plug-config/markdown-preview.vim
+source $HOME/.config/nvim/plug-config/configs.vim
 
 "##########################################################################"
 " Providers config (nvim special)

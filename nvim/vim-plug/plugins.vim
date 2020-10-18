@@ -1,4 +1,4 @@
-call plug#begin('~/.config/nvim/vim-plug/plugged')
+call plug#begin('~/.config/nvim/vim-plug')
 
 " coc.nvim completion engine
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -12,9 +12,6 @@ Plug 'airblade/vim-gitgutter'
 " No-distraction mode
 Plug 'junegunn/goyo.vim'
 
-" Floating terminal
-Plug 'voldikss/vim-floaterm'
-
 " LaTeX in vim
 Plug 'lervag/vimtex'
 
@@ -23,8 +20,5 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
 " Snippet bundle
 Plug 'honza/vim-snippets'
-
-" Start screen
-Plug 'mhinz/vim-startify'
 
 call plug#end()
