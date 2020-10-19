@@ -2,6 +2,16 @@ call plug#begin('~/.config/nvim/vim-plug')
 
 " coc.nvim completion engine
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+let g:coc_global_extensions = [
+            \'coc-actions',
+            \'coc-python', 
+            \'coc-sh', 
+            \'coc-html', 
+            \'coc-clangd', 
+            \'coc-snippets',
+            \'coc-template',
+            \'coc-spell-checker'
+            \]
 
 " better commentary
 Plug 'tpope/vim-commentary'
