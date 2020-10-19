@@ -4,6 +4,7 @@
 !.gitignore
 
 !.Xresources
+!.Xresources.d/
 
 !.util/
 !zsh/
