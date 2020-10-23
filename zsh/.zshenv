@@ -2,7 +2,12 @@
 
 export PATH="$PATH:$HOME/.local/bin"
 
-export SCRIPTS="$HOME/scripts"
+#==========================================================================#
+
+export DOTFILES="$HOME/.config"
+
+export DOTFILES_SCRIPTS="$DOTFILES/.scripts"
+export DOTFILES_UTIL="$DOTFILES/.util"
 
 #==========================================================================#
 
@@ -15,10 +20,6 @@ export XDG_SCREENSHOTS_DIR="$HOME/media/screenshots"
 export XDG_CONFIG_DIR="$HOME/.config"
 
 #==========================================================================#
-
-export CONDA_ROOT="$HOME/.local/share/anaconda3/"
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 #export MYVIMRC="$HOME/.config/vim/.vimrc"
 #export VIMINIT=":set runtimepath+=$HOME/.config/vim/after,$HOME/.config/vim|:source $MYVIMRC"
