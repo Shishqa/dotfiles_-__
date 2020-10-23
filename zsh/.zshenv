@@ -1,6 +1,8 @@
 #==========================================================================#
 
-export PATH="$PATH:$HOME/.local/bin:$HOME/scripts"
+export PATH="$PATH:$HOME/.local/bin"
+
+export SCRIPTS="$HOME/scripts"
 
 #==========================================================================#
 
