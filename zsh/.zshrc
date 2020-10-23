@@ -1,6 +1,6 @@
 #==========================================================================#
 
-export PATH="$CONDA_ROOT/bin/:$PATH"
+# export PATH="$CONDA_ROOT/bin/:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$ZDOTDIR/oh-my-zsh"

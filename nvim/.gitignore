@@ -1,4 +1,3 @@
-autoload/
 cache/
 vim-plug/*
 !vim-plug/plugins.vim

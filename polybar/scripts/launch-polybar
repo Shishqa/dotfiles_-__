@@ -13,4 +13,5 @@ CONFIG=$HOME/.config/polybar/bars.ini
 #polybar --config=$CONFIG mid  -rq &
 #polybar --config=$CONFIG right  -rq &
 
-polybar --config=$CONFIG main -rq &
+polybar --config=$CONFIG top    -rq &
+polybar --config=$CONFIG bottom -rq &
