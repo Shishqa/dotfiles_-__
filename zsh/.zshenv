@@ -11,6 +11,11 @@ export DOTFILES_UTIL="$DOTFILES/.util"
 
 #==========================================================================#
 
+export DOTFILES="$HOME/.config"
+export DOTFILES_UTIL="$DOTFILES/.util"
+
+#==========================================================================#
+
 export XDG_DOWNLOAD_DIR="$HOME/downloads"
 export XDG_REPOS_DIR="$HOME/repositories"
 export XDG_MEDIA_DIR="$HOME/media"
