@@ -2,7 +2,12 @@
 
 export PATH="$PATH:$HOME/.local/bin"
 
-export SCRIPTS="$HOME/scripts"
+#==========================================================================#
+
+export DOTFILES="$HOME/.config"
+
+export DOTFILES_SCRIPTS="$DOTFILES/.scripts"
+export DOTFILES_UTIL="$DOTFILES/.util"
 
 #==========================================================================#
 
