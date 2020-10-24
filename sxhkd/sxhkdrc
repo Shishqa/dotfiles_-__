@@ -20,7 +20,7 @@ super + c
 
 # pick colour
 super + p
-    pick-colour-picker &
+   pick-colour-picker &
 
 # system monitor
 super + i
@@ -55,11 +55,14 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 # screenshots
-{_,shift + }Print
-    maim -{s,u} | xclip -selection clipboard -t image/png
+Print
+    flameshot gui 
 
-super + {_,shift + }Print
-    maim -{s,u} $XDG_SCREENSHOTS_DIR/$(date +%s).png
+#{_,shift + }Print
+ #   maim -{s,u} | xclip -selection clipboard -t image/png
+
+#super + {_,shift + }Print
+#    maim -{s,u} $XDG_SCREENSHOTS_DIR/$(date +%s).png
 
 # volume
 XF86AudioRaiseVolume
